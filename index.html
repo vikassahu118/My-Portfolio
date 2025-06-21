@@ -221,20 +221,24 @@
                 <!-- Reach -->
                 <div class="column right" id="column right">
                     <div class="text">Message me</div>
-                    <form action="#">
+                   <form action="https://api.web3forms.com/submit" method="POST">
+
+                        <!-- Required hidden access key -->
+                        <input type="hidden" name="access_key" value="6ab76e7e-d2f5-47fd-9375-f1a071ddfe64">
+
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" placeholder="Your Name" required>
+                                <input type="text" name="name" placeholder="Your Name" required>
                             </div>
                             <div class="field email">
-                                <input type="email" placeholder="Your Email" required>
+                                <input type="email" name="email" placeholder="Your Email" required>
                             </div>
                         </div>
                         <div class="field">
-                            <input type="text" placeholder="Subject" required>
+                            <input type="text" name="subject" placeholder="Subject" required>
                         </div>
                         <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                            <textarea name="message" cols="30" rows="10" placeholder="Message.." required></textarea>
                         </div>
                         <div class="button-area">
                             <button type="submit">Send message</button>
