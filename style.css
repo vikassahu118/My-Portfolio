@@ -425,12 +425,9 @@ section .title::after {
     background: #1e3551;
 }
 
-.skills-content .right .python::before {
-    width: 90%;
-}
 
 .skills-content .right .html::before {
-    width: 80%;
+    width: 90%;
 }
 
 .skills-content .right .css::before {
@@ -438,11 +435,11 @@ section .title::after {
 }
 
 .skills-content .right .js::before {
-    width: 40%;
+    width: 80%;
 }
 
 .skills-content .right .bootstraps::before {
-    width: 60%;
+    width: 70%;
 }
 
 .skills-content .right .django::before {
