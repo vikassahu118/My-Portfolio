@@ -41,7 +41,7 @@ $(document).ready(function () {
     var typed = new Typed(".typing", {
         strings: [
             "FrontEnd Developer",
-           
+
         ],
         typeSpeed: 100,
         backSpeed: 60,
@@ -51,8 +51,7 @@ $(document).ready(function () {
     var typed = new Typed(".typing-2", {
         strings: [
             "FrontEnd Developer",
-            
-            "Data Science Enthusiast",
+
 
         ],
         typeSpeed: 100,
